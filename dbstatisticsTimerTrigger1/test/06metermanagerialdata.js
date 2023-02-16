@@ -3,7 +3,7 @@ var moment = require("moment");
 
 var objMeterManagerialData = require('../controllers/metermanagerialdatacontroller.js');
 var objInputModel = require('../model/metermanagerialdatadao.js');
-var objSetup = require('./setup/setup.js');
+var objSetup = require('../test/setup/setup.js');
 var objConfig = require('../config.js');
 var objdaoimpl = require('../dao/mysqldaoimpl.js');
 var objManagerialDataModel = require('../model/sqltables/managerialdatamodel.js');

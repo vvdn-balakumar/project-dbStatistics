@@ -1,4 +1,4 @@
-var objDBStatistics = require('../controllers/dbStatistics.js');
+var objDBStatistics = require('./controllers/dbStatistics.js');
 var dbCon = require('./dao/mongodaoimpl');
 
 module.exports = function (context, myTimer) {
